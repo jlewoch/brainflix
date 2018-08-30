@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.video-suggestions {
+  width: 35%;
+  padding-left: 2vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .video-suggestions {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=VideoSuggestions.css.map */

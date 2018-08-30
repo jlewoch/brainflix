@@ -1,0 +1,21 @@
+@import '../../../Assets/Typography/variables';
+.progress-container{
+
+    display: flex;
+    padding: 1vw 2vw;
+
+
+}
+.progress-bar{
+
+    height: 6px;
+    width: 100%;
+    background: $lighterGray;
+    opacity: .3;
+}
+
+.played{
+    width: 25%;
+    background:$blue;
+    height: 6px;
+} 

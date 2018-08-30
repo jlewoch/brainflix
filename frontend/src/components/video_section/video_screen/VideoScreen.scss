@@ -1,0 +1,17 @@
+@import '../../../Assets/Typography/variables'; 
+.video-screen{
+ display: flex;
+ position: relative;
+}
+
+.video-screen__image{
+    position: relative;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+}
+.video-container{
+    position: relative;
+width: 100%;
+}
+  

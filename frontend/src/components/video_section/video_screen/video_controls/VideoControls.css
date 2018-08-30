@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.video-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 1.125vw;
+  color: #fff;
+}
+
+.video-controls:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.6)), to(rgba(17, 17, 17, 0)));
+  background: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0));
+}
+
+.video-controls-container {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  margin: 0px 1rem;
+  height: 100%;
+}
+
+.icon:hover, .volume-control-icon:hover {
+  cursor: pointer;
+}
+
+.video-controls-left {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 2vw;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.play-icon {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.volume-control-icon {
+  white-space: nowrap;
+  height: 100%;
+  margin: 0px .2rem;
+}
+
+.volume {
+  margin-left: 1rem;
+}
+
+.video-controls-right {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0px 2vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=VideoControls.css.map */

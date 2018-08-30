@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.video-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.video-screen__image {
+  position: relative;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+}
+/*# sourceMappingURL=VideoScreen.css.map */

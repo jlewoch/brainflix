@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.video-upload {
+  background: #d4d4d4;
+  width: 100%;
+  padding: 6vw 0px;
+  min-height: 100vh;
+}
+
+.upload-main-image {
+  width: 100%;
+}
+
+.video-upload-form {
+  background: #fff;
+  border: solid #888 1px;
+  height: auto;
+  padding: 1vw;
+}
+
+.video-upload__status {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.video-upload__status-label {
+  font-size: 0.875rem;
+}
+
+@media screen and (max-width: 500px) {
+  .video-upload-form-end {
+    padding: 15px;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=VideoUpload.css.map */

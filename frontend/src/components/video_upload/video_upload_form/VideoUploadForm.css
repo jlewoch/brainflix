@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.form-input {
+  border: #d4d4d4 1px solid;
+  border-radius: 2px;
+  background: #f8f8f8;
+  width: 100%;
+  height: 34px;
+  font-size: 0.75rem;
+  resize: none;
+  margin-bottom: 2vw;
+  padding: 9px;
+  outline: none;
+}
+
+.form-label {
+  font-size: 0.875rem;
+}
+
+.form-input:focus {
+  border-color: #0095ff;
+}
+
+.form-textarea {
+  height: 102px;
+}
+
+.form-dropdown {
+  width: 50%;
+  height: 35px;
+  margin-bottom: 2vw;
+}
+
+.form-input-border {
+  border-color: solid thin #0095ff;
+}
+/*# sourceMappingURL=VideoUploadForm.css.map */

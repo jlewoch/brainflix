@@ -1,0 +1,29 @@
+@import "../../Assets/Typography/variables";
+.video-upload {
+  background: $lightGray;
+  width: 100%;
+  padding: 6vw 0px;
+  min-height: 100vh;
+}
+.upload-main-image{
+  width: 100%;
+}
+.video-upload-form {
+  background: $white;
+  border: solid $gray 1px;
+  height: auto;
+  padding: 1vw;
+}
+.video-upload__status {
+  color: $gray;
+  font-size: $h4;
+}
+.video-upload__status-label {
+  font-size: $h4;
+}
+@media screen and (max-width: 500px) {
+  .video-upload-form-end {
+    padding: 15px;
+    margin:0;
+  }
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+} 
+
+
+
+//fonts size and family
+$primaryFont: Roboto-Regular;
+$SemiBoldFont: Roboto-Medium;
+$h1: 1.25rem;
+$h2: 1.125rem;
+$h3: 1rem;
+$h4: 0.875rem;
+$h5: 0.8125rem; 
+$helpText: 0.75rem;
+$thumbOverHover: 0.625rem;
+
+//colours
+$black: #111;
+$white: #fff;
+$gray: #888;
+$lightGray: #d4d4d4;
+$lighterGray: #f1f1f1;
+$almostWhite: #f8f8f8;
+$blue: #0095ff;
+$lightBlue: #b2dfff;
+
+//gradiants
+$videoControlSection: linear-gradient(
+  to bottom,
+  rgba(17, 17, 17, 0.6),
+  rgba(17, 17, 17, 0)
+);
+$upNextDuration: rgba(17, 17, 17, 0.6);
+$durationBarHover: rgba(212, 212, 212, 0.6);
+$durationIncompleteLoading: rgba(255, 255, 255, 0.2);
+
+@mixin fillBorder($borderColor, $backgroundColor) {
+  border: $borderColor 1px solid;
+  border-radius: 2px;
+  background: $backgroundColor;
+}
+ 

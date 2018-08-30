@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.progress-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1vw 2vw;
+}
+
+.progress-bar {
+  height: 6px;
+  width: 100%;
+  background: #f1f1f1;
+  opacity: .3;
+}
+
+.loaded {
+  width: 100%;
+  background: #fff;
+  height: 6px;
+}
+
+.played {
+  width: 25%;
+  background: #0095ff;
+  height: 6px;
+}
+/*# sourceMappingURL=ProgressBar.css.map */

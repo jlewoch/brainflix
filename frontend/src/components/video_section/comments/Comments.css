@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.comment-button {
+  font-size: 0.8125rem;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background: #b2dfff;
+  border-radius: 2px;
+  color: #fff;
+  outline: none;
+}
+
+.comment-button:hover {
+  background: #0095ff;
+}
+
+.cancel-button {
+  font-size: 0.8125rem;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 2px;
+}
+
+.comment-section {
+  width: 100%;
+  font-size: 0.8125rem;
+}
+
+.comment-input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 4vw;
+}
+
+.comment-input {
+  margin-left: 1vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.comment-input__buttons {
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.comment-input__input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888;
+  width: 100%;
+  color: gray;
+}
+
+.comment-input__input:focus {
+  color: #111;
+  border-color: #111;
+}
+
+.comment-input__input:focus ~ div .comment-button {
+  background: #0095ff;
+}
+/*# sourceMappingURL=Comments.css.map */

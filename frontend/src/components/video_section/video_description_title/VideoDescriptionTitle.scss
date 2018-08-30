@@ -1,0 +1,91 @@
+@import "../../../Assets/Typography/variables";
+.subscribe-button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  background: $blue;
+  border-radius: 2px;
+  color: $white;
+  display: flex;
+  padding: 0px 10px;
+  font-size: $h4;
+  justify-content: space-between;
+}
+.subscribe-button:hover {
+  cursor: pointer;
+}
+.subs {
+  margin-left: 10px;
+  color: $lightGray;
+}
+.video-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 8vw;
+  font-size: $h3;
+}
+.video-title__label {
+  padding: 1vw 0px;
+  font-weight: normal;
+}
+.video-title-controls__title,
+.video-title-controls__controls,
+.video-title-controls,
+.video-title-controls__controls-icon {
+  display: flex;
+}
+.video-title-controls__controls-icon > * {
+  margin: 0.25rem;
+}
+.video-title-controls__controls {
+  justify-content: space-between;
+}
+.video-title-controls {
+  justify-content: space-between;
+  color: $gray;
+  font-size: $h4;
+}
+
+.video-description {
+  width: 100%;
+  padding-top: 2vw;
+  font-size: $h4;
+  display: flex;
+}
+.video-description-start {
+  margin-left: 1vw;
+  width: 100%;
+}
+
+.video-description__image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.description-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-text__published {
+  color: $gray;
+}
+.description-text__button {
+  color: $gray;
+  font-family: $primaryFont;
+  font-weight: normal;
+}
+.video-description-end {
+  min-height: 2vw;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 2vw;
+}
+.description-text__description{
+  margin-bottom: 2vw;
+}

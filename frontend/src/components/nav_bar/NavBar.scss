@@ -1,0 +1,23 @@
+@import '../../Assets/Typography/variables'; 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 6vw;
+    box-shadow: 0px 4px 11px $lighterGray;
+}
+.navbar-right{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 1000px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        height: auto;
+    } 
+} 

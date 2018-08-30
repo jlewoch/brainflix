@@ -1,0 +1,29 @@
+@import '../../../../Assets/Typography/variables';
+.comment{
+    display: flex;
+    align-items: center;
+    font-size: $h4;
+    width: 100%;
+    margin: 2vw 0px;
+}
+.comment-body{
+    margin-left: 1vw; 
+    width: 100%;
+}
+
+.comment-body__label{
+    color: $gray;
+    margin-bottom: 10px;
+}
+.comment-body__user-name{
+    margin-right: 10px;
+    font-family: $SemiBoldFont;
+    color: $black;
+}
+.remove-button{
+    float: right;
+}
+.remove-button:hover{
+    color: red;
+    cursor: pointer;
+}

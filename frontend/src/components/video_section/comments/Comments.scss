@@ -1,0 +1,63 @@
+@import "../../../Assets/Typography/variables";
+.comment-button {
+  font-size: $h5;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background: $lightBlue;
+  border-radius: 2px;
+  color: $white;
+  outline: none;
+}
+.comment-button:hover{
+  background: $blue;
+}
+
+.cancel-button{
+  font-size: $h5;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background: $almostWhite;
+  border-radius: 2px;
+}
+.comment-section {
+  width: 100%;
+  font-size: $h5;
+
+}
+
+.comment-input-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 4vw;
+}
+.comment-input{
+  margin-left: 1vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.comment-input__buttons{
+  margin: 10px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.comment-input__input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid $gray;
+  width: 100%;
+ 
+  color: gray;
+}
+.comment-input__input:focus {
+  color: $black;
+  border-color: $black;
+  
+}
+.comment-input__input:focus ~ div .comment-button{
+  background: $blue;
+}

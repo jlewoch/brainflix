@@ -1,0 +1,33 @@
+@import '../../../Assets/Typography/variables'; 
+.search-bar {
+    width: 502px;
+    height: 44px;
+    @include fillBorder($lightGray, $white);
+    padding: 0px 10px;
+  }
+  .search-bar:focus {
+    outline: none;
+    border-color: $blue;
+    color: $black;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 109px;
+    height: 44px;
+    @include fillBorder($lightGray, $almostWhite);
+    border-left: none;
+  }
+  @media screen and (max-width: 1000px){
+    .search-bar{
+      width: 100%;
+    }  
+}
+ 

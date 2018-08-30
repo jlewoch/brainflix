@@ -1,0 +1,29 @@
+@import "../../../Assets/Typography/variables";
+.form-input {
+  @include fillBorder($lightGray, $almostWhite);
+  width: 100%;
+  height: 34px;
+  font-size: $helpText;
+  resize: none;
+  margin-bottom: 2vw;
+  padding: 9px;
+  outline: none;
+}
+.form-label {
+font-size: $h4;
+}
+.form-input:focus {
+  border-color: $blue;
+}
+
+.form-textarea{
+  height: 102px;
+}
+.form-dropdown {
+  width: 50%;
+  height: 35px;
+  margin-bottom: 2vw;
+}
+.form-input-border{
+  border-color: solid thin $blue;
+} 

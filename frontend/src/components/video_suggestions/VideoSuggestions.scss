@@ -1,0 +1,10 @@
+@import '../../Assets/Typography/variables'; 
+.video-suggestions{
+    width: 35%;
+    padding-left: 2vw;
+}
+@media screen and (max-width: 1000px){
+    .video-suggestions{
+        width: 100%;
+    }
+}   

@@ -1,0 +1,49 @@
+@import '../../../Assets/Typography/variables'; 
+.video-suggestions-item{
+    display: flex;
+    margin: 10px 0px;
+    height: 100px;
+}
+.video-suggestions-item-left{
+   padding-right: 10px;
+}
+
+.video-suggestions-item-left__length{
+    width: 35px;
+    height: 19px;
+    font-size: 0.75rem;
+    background: rgba(17, 17, 17, 0.6);
+    color: $white;
+    position: relative;
+    z-index: 12;
+    left: 75%;
+    top: -30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $h4; 
+}
+.video-suggestions-item-left__image{
+height: 100px;
+width: 160px;
+}
+  
+.video-suggestions-item-right{
+    display: flex;
+    flex-direction: column;
+}
+.video-suggestions-item-right__title{
+    font-size: $h4;
+    color: black;
+}
+.video-suggestions-item-right__channel{
+    color: $gray;
+    font-size: $h5;
+    font-weight: normal;
+   padding: 5px 0px;
+}
+.video-suggestions-item-right__views{
+    color: $gray;
+    font-size: $h5;
+    font-weight: normal;
+}

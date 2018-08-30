@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(/src/Assets/Typography/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(/src/Assets/Typography/Roboto-Medium.ttf);
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.875rem;
+  width: 100%;
+  margin: 2vw 0px;
+}
+
+.comment-body {
+  margin-left: 1vw;
+  width: 100%;
+}
+
+.comment-body__label {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.comment-body__user-name {
+  margin-right: 10px;
+  font-family: Roboto-Medium;
+  color: #111;
+}
+
+.remove-button {
+  float: right;
+}
+
+.remove-button:hover {
+  color: red;
+  cursor: pointer;
+}
+/*# sourceMappingURL=CommentsTemplate.css.map */

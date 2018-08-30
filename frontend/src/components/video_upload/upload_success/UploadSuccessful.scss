@@ -1,0 +1,26 @@
+@import "../../../Assets/Typography/variables";
+
+.return-edit-button {
+  width: 100%;
+  height: 30px;
+    color: $black;
+    @include fillBorder($lightGray, $almostWhite);
+  }
+  .return-edit-button:hover {
+    border-color: $gray;
+    background-color: $lightGray;
+  }
+  .form-input-success{
+    @include fillBorder($lightGray, $almostWhite);
+    width: 50%;
+    height: 34px;
+    font-size: $helpText;
+    resize: none;
+    margin-bottom: 2vw;
+    padding: 9px;
+    outline: none;
+  }
+
+  .success{
+      font-size: $h5;
+  }

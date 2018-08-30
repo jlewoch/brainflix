@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACR,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,8CAA8C;;;AAErD,UAAU;EACR,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,6CAA6C;;;ADLpD,AAAA,kBAAkB,CAAA;EACd,KAAK,EAAE,GAAG;EACV,YAAY,EAAE,GAAG;CACpB;;AACD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,kBAAkB,CAAA;IACd,KAAK,EAAE,IAAI;GACd",
+    "sources": [
+        "VideoSuggestions.scss",
+        "../../Assets/Typography/variables.scss"
+    ],
+    "names": [],
+    "file": "VideoSuggestions.css"
+}
